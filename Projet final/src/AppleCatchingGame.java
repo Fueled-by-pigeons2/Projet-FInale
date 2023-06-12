@@ -14,7 +14,9 @@ public class AppleCatchingGame extends JPanel implements ActionListener, KeyList
     private static final int APPLE_HEIGHT = 30;
     private static final int APPLE_SPEED = 3;
     private static final int PLAYER_SPEED = 5;
-
+    
+    int asdasdx=0;
+    
     private int playerX;
     private List<Integer> appleXList;
     private List<Integer> appleYList;
